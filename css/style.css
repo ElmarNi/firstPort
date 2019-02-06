@@ -1,0 +1,55 @@
+fieldset{
+    width: 400px;
+    margin: auto;
+    display: block;
+    background: lightyellow;
+}
+legend{
+    margin: auto
+}
+label{
+    margin: 10px;
+}
+input {
+    width: 60%;
+    display: block;
+    padding: 10px;
+}
+select{
+    display: block;
+    padding: 10px;
+    width: -webkit-fill-available;
+}
+/*input style*/
+input:focus{
+    width: 90%;
+    transition: 1s ease-in-out;
+    outline: 2px green dotted
+}
+input[type=email]:invalid{
+    border: 2px dotted red;   
+}
+input[type=button]:hover{
+    background-color: lightseagreen;
+    transition: 1s ease-in-out
+}
+
+input[type=button]{
+    width: 100%;
+}
+input[name=gender]{
+    display: inline-block;
+}
+/*select style*/
+
+select , input[type=date]{
+    color: gray;
+}
+select{
+    border-radius: 10px
+}
+select:focus{
+    color: black;
+}
+
+

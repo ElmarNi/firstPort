@@ -1,0 +1,66 @@
+.main{
+    width: 800px;
+    margin:auto;
+    background: #f6f6f6
+}
+.container{
+    width: 90%;
+    margin: auto;
+    background: #ffeaa9;
+    border-radius: 5px;
+    border: 1px solid orange;
+    box-shadow: 2sm;
+    display: inline-block
+}
+label{
+    margin-bottom: 10px
+}
+h3 ,p{
+    display: inline-block;
+    margin: 10px;
+}
+.form{
+    display: inline-block;
+}
+label{
+    display: block
+}
+textarea{
+    border-radius: 5px
+}
+select{
+    border-radius: 5px;
+    width: 303px;
+    height: 26px;
+}
+input{
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+}
+label>p{
+    margin-right: 100px;
+}
+label[for=email]>p{
+    margin-right: 94px;
+}
+label[for=ph]>p{
+    margin-right: 98px
+}
+label[for=sub]>p{
+    margin-right: 98px
+}
+label[for=msg]>p{
+    margin-right: 94px;
+    float: left;
+}
+input[type=email]:invalid{
+    border:2px dotted red 
+}
+input[type=button]{
+    float: right;
+    width: 100px;
+    height: 40px;
+    background: greenyellow
+}
